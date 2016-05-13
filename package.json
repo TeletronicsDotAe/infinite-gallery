@@ -1,6 +1,6 @@
 {
   "name": "@tlt/infinite-gallery",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "Infinite gallery component. You set an image-provider, the component makes you scroll smoothly through all the images it provides",
   "author": "Per Steffensen <steff@teletronics.ae>",
   "license": "Apache-2.0",
@@ -32,7 +32,7 @@
     "uglify": "uglifyjs -mc < dist/infinite.gallery.js > dist/infinite.gallery.min.js",
     "clean": "rimraf dist dist-node && mkdirp dist dist-node",
     "build": "npm run clean && npm run build-node && npm run build-browser",
-    "version": "npm run build && git add -A dist &&  && git add -A dist-node",
+    "version": "npm run build && git add -A dist && git add -A dist-node",
     "postversion": "git push && git push --tags"
   },
   "dependencies": {

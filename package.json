@@ -32,7 +32,8 @@
     "uglify": "uglifyjs -mc < dist/infinite.gallery.js > dist/infinite.gallery.min.js",
     "clean": "rimraf dist dist-node && mkdirp dist dist-node",
     "build": "npm run clean && npm run build-node && npm run build-browser",
-    "prepublish": "npm run build"
+    "version": "npm run build && git add -A dist &&  && git add -A dist-node",
+    "postversion": "git push && git push --tags"
   },
   "dependencies": {
     "jquery": ">=1.0.0"

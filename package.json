@@ -1,0 +1,48 @@
+{
+  "name": "@tlt/infinite-gallery",
+  "version": "0.1.0",
+  "description": "Infinite gallery component. You set an image-provider, the component makes you scroll smoothly through all the images it provides",
+  "author": "Per Steffensen <steff@teletronics.ae>",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/TeletronicsDotAe/infinite-gallery",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TeletronicsDotAe/infinite-gallery.git"
+  },
+  "files": [
+    "dist-node/infinite.gallary.js"
+  ],
+  "main": "dist-node/infinite.gallary.js",
+  "jsnext:main": "src/infinite.gallary.js",
+  "jspm": {
+    "main": "dist/infinite.gallery.js"
+  },
+  "keywords": [
+    "pictures",
+    "images",
+    "gallery",
+    "scroll",
+    "web-component",
+    "client-side"
+  ],
+  "scripts": {
+    "build-node": "babel src --out-dir dist-node",
+    "build-browser": "npm run browserify && npm run uglify",
+    "browserify": "browserify --standalone TLTInfiniteGallery dist-node/infinite.gallery.js | derequire > dist/infinite.gallery.js",
+    "uglify": "uglifyjs -mc < dist/infinite.gallery.js > dist/infinite.gallery.min.js",
+    "clean": "rimraf dist dist-node && mkdirp dist dist-node",
+    "build": "npm run clean && npm run build-node && npm run build-browser",
+    "prepublish": "npm run build"
+  },
+  "dependencies": {
+    "jquery": ">=1.0.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "browserify": "^11.2.0",
+    "derequire": "^2.0.2",
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.4.3",
+    "uglify-js": "^2.5.0"
+  }
+}

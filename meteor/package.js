@@ -1,14 +1,13 @@
 "use strict";
 
-var packageName = "tlt:infinite-gallery";
-
-var packageJson = JSON.parse(Npm.require("fs").readFileSync('package.json'));
+var description = getFromPackageJson(description);
+if (description.length > 100) description = description.substring(0, 100);
 
 Package.describe({
-    name: packageName,
-    version: packageJson.version,
-    summary: packageJson.description,
-    git: packageJson.repository.url
+    name: "tlt:infinite-gallery",
+    version: getFromPackageJson(version),
+    summary: description,
+    git: getFromPackageJson(repository.url)
 });
 
 Package.onUse(function(api) {

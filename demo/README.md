@@ -13,7 +13,7 @@ bower install
 ```
 *Note* your are not using the local source, but a release from the bower repository
 
-Open file &lt;checkout-folder&gt;/demo/src/index_bower.html in your favorite brower (at leat Firefox and Chrome seems to work)
+Open file &lt;checkout-folder&gt;/demo/src/index_bower.html in your favorite browser (at leat Firefox and Chrome seems to work)
 
 ## NPM
 
@@ -24,7 +24,7 @@ npm install
 ```
 *Note* your are not using the local source, but a release from the npm repository
 
-Open file &lt;checkout-folder&gt;/demo/src/index_npm.html in your favorite brower (at leat Firefox and Chrome seems to work)
+Open file &lt;checkout-folder&gt;/demo/src/index_npm.html in your favorite browser (at leat Firefox and Chrome seems to work)
 
 ## Checked out code
 
@@ -35,4 +35,4 @@ npm install
 npm run build
 ```
 
-Open file &lt;checkout-folder&gt;/demo/src/index_localcode.html in your favorite brower (at leat Firefox and Chrome seems to work).
+Open file &lt;checkout-folder&gt;/demo/src/index_localcode.html in your favorite browser (at leat Firefox and Chrome seems to work).

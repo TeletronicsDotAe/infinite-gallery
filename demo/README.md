@@ -2,7 +2,7 @@
 
 ## Common
 
-* Checkout this repository
+* Checkout this repository into a folder &lt;checkout-folder&gt; of your choice
 * Open a terminal and cd into &lt;checkout-folder&gt;/demo
 
 ## Bower

@@ -26,6 +26,8 @@ MyImageProvider.prototype.setResultsChangedObserver = function(observer) {
 
 See [demo](demo) for demonstrations of using the componenet
 
+This component also comes wrapped in a [Angular directive](https://github.com/TeletronicsDotAe/infinite-gallery-angular)
+
 Bower
 * Dependency: tlt.infinite-gallery
 * Use `bower info tlt.infinite-gallery` to list available versions

@@ -1,0 +1,18 @@
+{
+  "name": "infinite-gallery-bower-demo",
+  "authors": [
+    "Per Steffensen <steff@designware.dk>"
+  ],
+  "main": "src/index_bower.html",
+  "dependencies": {
+    "tlt.infinite-gallery": "0.1.1"
+  },
+  "license": "Apache-2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

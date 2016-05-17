@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en" style="height: 100%; width: 100%">
+
+<head>
+    <meta charset="utf-8">
+    <title>Teletronics.ae infinite gallery demo</title>
+    <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../../dist/infinite.gallery.min.js"></script>
+    <script src="myimageprovider.js"></script>
+</head>
+
+<body style="height: 100%; width: 100%">
+    <script>
+    $(function() {
+        new TLTInfiniteGallery($("#container"), new MyImageProvider(), 2000, 200, 4);
+    });
+    </script>
+    <div id="container" style="min-height: 100%; height: auto !important; height: 100%; width: 100%"></div>
+</body>
+
+</html>

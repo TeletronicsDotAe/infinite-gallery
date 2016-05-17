@@ -6,11 +6,11 @@ See [demo](demo) for demonstration of the componenet
 
 Bower
 * Dependency: tlt.infinite-gallery
-* Use ´´´bower info tlt.infinite-gallery´´´ to list available versions
+* Use `bower info tlt.infinite-gallery` to list available versions
 
 NPM
 * Dependency: @tlt/infinite-gallery
-* Use ´´´npm view @tlt/infinite-gallery´´´ to list available versions
+* Use `npm view @tlt/infinite-gallery` to list available versions
 *Note* the npm releases currently does not work
 
 Meteor

@@ -3,7 +3,7 @@
 ## Common
 
 * Checkout this repository
-* Open a terminal and cd into <checkout-folder>/demo
+* Open a terminal and cd into &lt;checkout-folder&gt;/demo
 
 ## Bower
 

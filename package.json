@@ -10,7 +10,8 @@
     "url": "https://github.com/TeletronicsDotAe/infinite-gallery.git"
   },
   "files": [
-    "dist-node/infinite.gallery.js"
+    "dist",
+    "dist-node"
   ],
   "main": "dist-node/infinite.gallery.js",
   "jsnext:main": "src/infinite.gallery.js",

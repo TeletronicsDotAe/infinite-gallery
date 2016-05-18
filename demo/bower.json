@@ -5,7 +5,7 @@
   ],
   "main": "src/index_bower.html",
   "dependencies": {
-    "tlt.infinite-gallery": "0.1.1"
+    "tlt.infinite-gallery": "0.3.0"
   },
   "license": "Apache-2.0",
   "ignore": [

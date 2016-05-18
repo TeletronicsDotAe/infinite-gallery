@@ -17,7 +17,6 @@ Open file &lt;checkout-folder&gt;/demo/src/index_bower.html in your favorite bro
 
 ## NPM
 
-CURRENTLY this does not work, because it seems the publish to npm does not inclue the correct set of files
 Fetch the npm dependencies
 ```
 npm install

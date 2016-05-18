@@ -38,7 +38,5 @@ NPM
 * Dependency: @tlt/infinite-gallery
 * Use `npm view @tlt/infinite-gallery` to list available versions
 
-*Note* the npm releases currently do not work
-
 Meteor
 * See [atmospherejs.com](https://atmospherejs.com/tlt/infinite-gallery)

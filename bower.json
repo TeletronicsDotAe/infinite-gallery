@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/TeletronicsDotAe/infinite-gallery",
   "dependencies": {
-    "jquery": ">=1.0.0"
+    "jquery": ">=1.9.0"
   },
   "license": "Apache-2.0",
   "ignore": [

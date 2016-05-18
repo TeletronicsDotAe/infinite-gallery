@@ -1,6 +1,6 @@
 {
   "name": "@tlt/infinite-gallery",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Infinite gallery component. You set an image-provider, the component makes you scroll smoothly through all the images it provides",
   "author": "Per Steffensen <steff@teletronics.ae>",
   "license": "Apache-2.0",

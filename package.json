@@ -10,10 +10,10 @@
     "url": "https://github.com/TeletronicsDotAe/infinite-gallery.git"
   },
   "files": [
-    "dist-node/infinite.gallary.js"
+    "dist-node/infinite.gallery.js"
   ],
-  "main": "dist-node/infinite.gallary.js",
-  "jsnext:main": "src/infinite.gallary.js",
+  "main": "dist-node/infinite.gallery.js",
+  "jsnext:main": "src/infinite.gallery.js",
   "jspm": {
     "main": "dist/infinite.gallery.js"
   },

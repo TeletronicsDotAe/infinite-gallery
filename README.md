@@ -2,6 +2,8 @@
 
 Infinite gallery component. You set an image-provider, the component makes you scroll smoothly through all the images it provides.
 
+## Usage
+
 To use the component, essentially do a `new TLTInfiniteGallery` and give it the following parameters
 * A div (from the DOM) to contain the gallery. The gallery will not make the div grow (or shrink for that matter). Therefore it is very important to you force it to have the size and position you want it to have.
 * A javascript "class" known as the ImageProvider, implemented something a-la this

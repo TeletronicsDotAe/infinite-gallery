@@ -12,7 +12,7 @@ Package.describe({
 
 Package.onUse(function(api) {
     api.versionsFrom("1.2.0.2");
-    api.use("jquery");
+    api.use("jquery@1.9.0");
     api.export("TLTInfiniteGallery");
     api.addFiles([
         "dist/infinite.gallery.js",

@@ -16,19 +16,19 @@ The following has already been done, and should only be done this one time
 You can only (and should only try to) follow this procedure, if you are part of teletronics.ae (tlt) and know the passwords for registry.npmjs.org and atmospherejs.com registries. If you are working on a fork for another organization, you need to have your own accounts at those registries and essentially change any occurrence of "tlt" throughout the code-base with you own acronym/account-name. 
 
 * Consider updating demo dependencies to the release you are about to make (pretending you are currently on version 1.2.3, if you are going to run `npm version major` below, the next release will be 2.0.0, if you are going to run `npm version minor` below, the next release will be 1.3.0, if you are going to run `npm version patch` below, the next release will be 1.2.4). Currently it is a matter of changing the following files
- * Bower: [../demo/bower.json](../demo/bower.json)
- * NPM: [../demo/package.json](../demo/package.json)
+  * Bower: [../demo/bower.json](../demo/bower.json)
+  * NPM: [../demo/package.json](../demo/package.json)
 * Install the npm modules needed for releasing: `npm install`
 * Log into registry.npmjs.org: `npm login` (log in as user "tlt")
 * Bump to the new version, build, tag and push: `npm version major|minor|patch`
 * Publish the new release to registry.npmjs.org registry: `npm publish`
 * Build the package.js for meteor publish: `node prepare_meteor_package_js.js`
 * Publish the new release to atmospherejs.com (meteor) registry: `meteor publish`. You will be told about some additional steps to perform to finish the meteor publish
- * Essentially run `meteor publish-for-arch tlt:infinite-gallery@<x>.<y>.<z>` each of the remote machines accessed by
-  * `meteor admin get-machine os.osx.x86_64`
-  * `meteor admin get-machine os.linux.x86_64`
-  * `meteor admin get-machine os.linux.x86_32`
-  * `meteor admin get-machine os.windows.x86_32`
- * Meteor might very well change that procedure over time, so just make sure to follow the directions
- * I faithfully run the command on each of the machines, even though it only succeeds on the first one. The rest fail with "Cannot override existing build". Im am not 100% sure why, but my guess is that meteor detects that there are no platform specific in the code and there reuses the build across architectures. I do not know if it is actually necessary to run the command on all machines, when it seems to fail on all but the first one, but I have done it every time.
+  * Essentially run `meteor publish-for-arch tlt:infinite-gallery@<x>.<y>.<z>` each of the remote machines accessed by
+    * `meteor admin get-machine os.osx.x86_64`
+    * `meteor admin get-machine os.linux.x86_64`
+    * `meteor admin get-machine os.linux.x86_32`
+    * `meteor admin get-machine os.windows.x86_32`
+  * Meteor might very well change that procedure over time, so just make sure to follow the directions
+  * I faithfully run the command on each of the machines, even though it only succeeds on the first one. The rest fail with "Cannot override existing build". Im am not 100% sure why, but my guess is that meteor detects that there are no platform specific in the code and there reuses the build across architectures. I do not know if it is actually necessary to run the command on all machines, when it seems to fail on all but the first one, but I have done it every time.
 * Clean up a few temporary files: `rm package.js .versions`

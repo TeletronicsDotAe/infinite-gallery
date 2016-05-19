@@ -13,7 +13,7 @@ The following has already been done, and should only be done this one time
 
 ## Release procedure
 
-You can only (and should only try to) follow this procedure, if you are part of [teletronics.ae](https://www.teletronics.ae/join-us/) (tlt) and know the passwords for registry.npmjs.org and atmospherejs.com registries. If you are working on a fork for another organization, you need to have your own accounts at those registries and essentially change any occurrence of "tlt" throughout the code-base with your own acronym/account-name. 
+You can only (and should only try to) follow this procedure, if you are part of [teletronics.ae](https://www.teletronics.ae/join-us/) (tlt) and know the passwords for registry.npmjs.org and atmospherejs.com registries. If you are working on a fork for another organization, you need to have your own accounts at those registries and essentially change any occurrence of "tlt" throughout the code-base with your own acronym/account-name. Instead of making your own releases of forks, we definitely prefer that you make a pull-request and have your improvements included in the next tlt-release.
 
 * Consider updating demo dependencies to the release you are about to make (pretending you are currently on version 1.2.3, if you are going to run `npm version major` below, the next release will be 2.0.0, if you are going to run `npm version minor` below, the next release will be 1.3.0, if you are going to run `npm version patch` below, the next release will be 1.2.4). Currently it is a matter of changing the following files
   * Bower: [../demo/bower.json](../demo/bower.json)

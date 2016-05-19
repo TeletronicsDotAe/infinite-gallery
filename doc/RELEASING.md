@@ -24,7 +24,7 @@ You can only (and should only try to) follow this procedure, if you are part of 
 * Publish the new release to registry.npmjs.org registry: `npm publish`
 * Build the package.js for meteor publish: `node prepare_meteor_package_js.js`
 * Publish the new release to atmospherejs.com (meteor) registry: `meteor publish`. You will be told about some additional steps to perform to finish the meteor publish
-  * Essentially run `meteor publish-for-arch tlt:infinite-gallery@<x>.<y>.<z>` each of the remote machines accessed by
+  * Essentially run `meteor publish-for-arch tlt:infinite-gallery@<x>.<y>.<z>` on each of the remote machines accessed by
     * `meteor admin get-machine os.osx.x86_64`
     * `meteor admin get-machine os.linux.x86_64`
     * `meteor admin get-machine os.linux.x86_32`

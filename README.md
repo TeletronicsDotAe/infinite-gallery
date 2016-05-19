@@ -39,7 +39,7 @@ NPM
 * Use `npm view @tlt/infinite-gallery` to list available versions
 
 Meteor
-* [https://atmospherejs.com/tlt/infinite-gallery](https://atmospherejs.com/tlt/infinite-gallery)
+* [meteor add tlt:infinite-gallery](https://atmospherejs.com/tlt/infinite-gallery)
 
 ## Additional doc
 

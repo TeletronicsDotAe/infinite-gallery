@@ -40,3 +40,7 @@ NPM
 
 Meteor
 * See [atmospherejs.com](https://atmospherejs.com/tlt/infinite-gallery)
+
+## Additional doc
+
+See [doc](doc)

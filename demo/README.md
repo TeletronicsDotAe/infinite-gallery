@@ -27,7 +27,7 @@ Open file &lt;checkout-folder&gt;/demo/src/index_npm.html in your favorite brows
 
 ## Meteor
 
-No demonstration of this "raw" componenet here, but see the demo of the Meteor package of the componenet wrapped as a Angular module [here](https://github.com/TeletronicsDotAe/infinite-gallery-angular/tree/master/demo)
+Currently no demo of the released Meteor package of this "raw" componenet, but see the demo of the Meteor package of this componenet wrapped as a Angular module [here](https://github.com/TeletronicsDotAe/infinite-gallery-angular/tree/master/demo)
 
 ## Checked out code
 

@@ -1,7 +1,7 @@
 {
   "name": "infinite-gallery-npm-demo",
   "version": "1.0.0",
-  "author": "Per Steffensen <steff@designware.dk>",
+  "author": "Per Steffensen <steff@teletronics.ae>",
   "main": "src/index_npm.html",
   "dependencies" : {
     "@tlt/infinite-gallery" : "0.3.0"

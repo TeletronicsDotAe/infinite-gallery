@@ -1,7 +1,7 @@
 {
   "name": "infinite-gallery-bower-demo",
   "authors": [
-    "Per Steffensen <steff@designware.dk>"
+    "Per Steffensen <steff@teletronics.ae>"
   ],
   "main": "src/index_bower.html",
   "dependencies": {

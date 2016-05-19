@@ -28,7 +28,7 @@ MyImageProvider.prototype.setResultsChangedObserver = function(observer) {
 
 See [demo](demo) for demonstrations of using the componenet
 
-This component also comes wrapped in a [Angular directive](https://github.com/TeletronicsDotAe/infinite-gallery-angular)
+This component also comes [wrapped in a Angular directive](https://github.com/TeletronicsDotAe/infinite-gallery-angular)
 
 Bower
 * Dependency: tlt.infinite-gallery
@@ -39,7 +39,7 @@ NPM
 * Use `npm view @tlt/infinite-gallery` to list available versions
 
 Meteor
-* See [atmospherejs.com](https://atmospherejs.com/tlt/infinite-gallery)
+* [https://atmospherejs.com/tlt/infinite-gallery](https://atmospherejs.com/tlt/infinite-gallery)
 
 ## Additional doc
 

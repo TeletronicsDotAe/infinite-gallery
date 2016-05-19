@@ -6,8 +6,8 @@ The following has already been done, and should only be done this one time
 
 * Set version in package.json to 0.0.0, so that we are ready for the first version-bump in `npm version major|minor|patch` in the procedure below
 * The first time I ran `npm publish` in the procedure below, it failed with “You need a paid account to perform this action”, because it thinks I want restricted access. You ought to be able to tell it to be public access as part of the `npm publish` command, but I cannot make that work. But the entry was actually created as a private entry at https://www.npmjs.com/~tlt, so I just made it public afterward
-** `npm access public`
-** Then run `npm publish` again
+  * `npm access public`
+  * Then run `npm publish` again
 * Register at Bower like this: `bower register tlt.infinite-gallery git://github.com/TeletronicsDotAe/infinite-gallery.git`
 * The first time I ran `meteor publish` in the procedure below, I ran it with a `--create` parameter like this: `meteor publish --create`
 
